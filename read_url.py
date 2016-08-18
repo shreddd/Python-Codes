@@ -1,5 +1,5 @@
 #Python 2
-import urllib
+import urllib2
 response = urllib2.urlopen("http://python.org/")
 content = response.read()
 
